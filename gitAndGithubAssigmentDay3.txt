@@ -1,0 +1,78 @@
+Assignment of Git and Github (Day 3)
+
+Q 1. What is Git?
+Ans Git is a popular version control system which was created by Linus
+    Torvdds in 2005 and has been maintained by Junio Hamano.Since Microsoft
+    acquired github in 2018 by investing 7.5 billion dollars in it so we 
+    can say it's owned by microsoft but git hub still works independently.
+    
+Q 2. What do you understand by the term "Version Control System"?
+Ans We can say that version control system or (V.C.S) is a controlled 
+    environment setup in which what ever work or changes done to a file 
+    or block of code is recorded, so that it can we recalled or used to
+    keep a track on the on going project or code.It makes things easier and
+    more reliable which are done in a Version Control system environment 
+    because there is always a backup of the work or project stored at a 
+    secured place ,other than a local environment or setup(Personal Laptop 
+    or PC).
+    
+Q 3. What is Github?
+Ans In the above sectin of VCS we discussed that the data which is recorded
+    while doing a project is stored from local repository to a remote      
+    repository. Github is a server which provides remote repository and it
+    is the largest  host millions of repositories in the world.It is used 
+    to store maintain and host project consisting of code assignment.
+    
+Q 4. Mention some popular Git hosting services.
+Ans Some popular git hosting services are github, Gitlab, Bitbucket,etc.
+
+Q 5. Different types of version control systems.
+Ans There are basically two types of Version Control System(V.C.S)
+    1.Centralized Version Control System(C.V.C.S)
+    2.Distributed Version Control System(D.V.C.S)
+    The main difference between between  these two V.C.S is the factor of 
+    the presence of a local repository.This diffrentiate between C.V.C.S 
+    and D.V.C.S .
+    Central version control system consist of only one main repository 
+    which is accessible in the presence of server or internet connection.
+    If electricity  gone or central server get crashed nothing can be done
+    to restore data
+    But in Distributed version control system it consist of two repository
+    Local repository and Remote repository.So if server or network is not 
+    there then the work can be easily stored in local repository.And if the
+    main repository currupt there is a local repository where every work is
+    saved.
+    
+ Q 6. What benefits come with using GIT?
+ Ans The benefits of using version control system like Git is that,first of 
+     all it is distributed version control system ,so we the user are pro-
+     vided with two repository first is local repository and the second one
+     the main or remote repository.
+     If sometimes the server is down or there is a network issue we can 
+     easily save our work or code in the local repository.And when server
+     and network become good we can easily upload our progress in the
+     main repository.
+     Second benifit is that there is always a backup repository for the 
+     doom's day i.e. if the main server crashed we have local repository as
+     a backup of our data and information.
+ 
+Q 7. What is a Git repository?
+Ans  Git repository is repository which keep the record of changes made in
+     the file while working on it. We can say that when a file is brought
+     to the staging area by git command git add it's actually brought to
+     the git repository which I can say is the local repository present 
+     in the local environment please correct me if i am wrong here.
+     
+Q 8. How can you initialize a repository in Git?
+Ans  We can initilalize Git in a repository by first opening the file in 
+     terminal(in my case since i am using linux) or we can open the file 
+     which is to be initilaize in git bash . when the file is opened via
+     terminal or git bash we just have to print the command git init
+     git init - It is a git command which is used to initialize a repository in git
+     
+     
+     
+     Thank you Since I know touch typing its easier for me to type than writing and i have utilized two days in learning linux command and git to
+     understand it properly so i am posting my assigment in git hub rahter than writing it in a peace of paper .
+     
+     
