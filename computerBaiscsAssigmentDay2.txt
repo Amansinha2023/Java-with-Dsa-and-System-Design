@@ -1,0 +1,65 @@
+Assigment of Computer Baics (Day 2)
+
+Ques1. What is Computer?
+Answer:- Computer is an electronic device which takes
+         input from the user in the form of raw data
+         from the input devices(keyword,mouse.etc).Processes
+         the the data in the processing unit(C.P.U), and produces 
+         the output on the basis of input data.
+         
+Ques2. What is RAM?
+Answer:- RAM stands for (Random Access Memory).
+         It is the primary memory of the computer or 
+         we can say it's the main memory.It is called 
+         primary memory because it is directly connect
+         to the processor.what ever input data which is feeded
+         to the processor is through this memory unit of the computer.
+         It's very fast but is volatile i.e. it cannot store data for 
+         longer period of time.
+         
+Ques3. Where is data stored in a computer?
+Answer:- There are the unit of C.P.U
+         1.C.U.(Control Unit)
+         2.A.L.U(Arithmatical Logical Unit)
+         3.M.U(Memory unit)
+         
+         So, the third component of computer which is memory unit
+         stored the processed data in it.In the memory unit there are
+         primarly two part 
+         1.Primary Memory
+         2.Secondary Memory
+         
+         so the Secondary Memorry Such as SSD and Hard disk store the
+         data.
+         
+ Ques4. What is that input device used to type text and number on the document ?
+ Answer:- Keyboard is the input device which is used to text and number
+          in the document.
+ 
+ Ques5. What are output Device?
+ Answer:- The devices which shows the output of the processed data
+          in the form of information to us are called output devices.
+          For example:- Moniter, Printer, Soundbox, etc
+ 
+ Ques6. 
+ Answer:- Mouse is the input device which allows a user to move the cursor
+          or pointer on the screen.
+ 
+ Ques7. 
+ Answer:- Binary languge is the langugage which is directly understood
+          by the computer it consist of only two digit (0 and 1)
+          where 0 sigifies no current flow in the circuit.
+          and 1 signifies current flow in the circuit.
+ 
+ Ques8.
+ Answer:- Input device is the device which take raw data as an input
+          from the user to send it to the processor for its processing
+          .For Example:-Keyboard, Mouse,Joystick,etc.
+          
+          
+      
+      
+      
+
+         
+         
