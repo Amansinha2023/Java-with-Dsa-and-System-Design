@@ -55,7 +55,9 @@ Answer:- There are the unit of C.P.U
  Answer:- Input device is the device which take raw data as an input
           from the user to send it to the processor for its processing
           .For Example:-Keyboard, Mouse,Joystick,etc.
-          
+         
+         
+         Please check properyly
           
       
       
