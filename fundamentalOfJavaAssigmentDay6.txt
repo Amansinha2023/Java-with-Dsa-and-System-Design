@@ -34,6 +34,14 @@ Ans  The features of Java are as follows:-
     f.It is case sensitive i.e. predefined thing present in upper case
       should be written in upper case and vice versa
       
+Q 4. What is an Object?
+Ans  Object is an entity which has State,Behaviour and Identity.Object can
+     also be called an instance of class.
+     
+
+      
+      
+      
    
      
      
