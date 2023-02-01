@@ -16,3 +16,39 @@ Ans  As we know all the processing of data happen in the processor,which is
      to give them instruction we need a programming language and an
      intermediate which converts High level language(Programming language) 
      to low level language(0,1).
+     
+Q 3. What are the features of Java?
+Ans  The features of Java are as follows:-
+    a.It is simple as it consists of daily used language as it's keywords 
+      like in c++ such as(if, else, int, char,etc)
+    b.It is object oriented programming language so it supports oops 
+      features mainly classes and objects.
+    c.It is secure as after compilation of java file it is converted
+      into byte code which is secure and can be read by jvm.
+    d.It is platform independent language and supports WORA(Write once run
+      anywhere) feature  means if we write java code in one O.S we can run
+      the byte code in other O.S. This architecture of java make it 
+      platform independent language.
+    e.It is robust i.e. it helps the develops in identifying the errors
+      as soon as possible during the building of any project or program.
+    f.It is case sensitive i.e. predefined thing present in upper case
+      should be written in upper case and vice versa
+      
+   
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
