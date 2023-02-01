@@ -38,7 +38,11 @@ Q 4. What is an Object?
 Ans  Object is an entity which has State,Behaviour and Identity.Object can
      also be called an instance of class.
      
-
+Q 5. What is a class?
+Ans  Class can be defined as collection of similar object.For an example
+     if we define a class of animal the the objects would be lion,tiger,dog
+     elephant etc.
+     
       
       
       
