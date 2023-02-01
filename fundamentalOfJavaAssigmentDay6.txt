@@ -43,7 +43,19 @@ Ans  Class can be defined as collection of similar object.For an example
      if we define a class of animal the the objects would be lion,tiger,dog
      elephant etc.
      
-      
+Q 6. Explain about the main()method in Java?
+Ans  Method can be also called function.Method or function is block of code 
+     which performs a specific task.Method has four parts 
+     a.Its returntype
+     b.Its name 
+     c.Its parameters
+     d.Its body inside curly brackets
+     for ex:- int add(int a, int b){
+                                int sum=a+b;
+                                 return sum;
+                                 }
+    In java main()method is the starting point of execution of a program
+    without main() program will not be compiled by the jdk or jvm tool.
       
       
    
