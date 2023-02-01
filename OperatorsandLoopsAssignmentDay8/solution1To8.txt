@@ -1,0 +1,81 @@
+Assignment Solution of Operators and Loops Assignment(Day 8)
+
+Q 1. What are the Conditional Operators in java?
+Ans  In java we use conditional operators when we have to generate the
+     output condition between two logical conditions (mainly of the 
+     conditions).
+     There are three conditional operators:-
+     Logical AND (&&) :- (true)&&(true) - true
+                         (true)&&(true) - true
+                        if both or all  the conditions are true then it
+                        will only return true 
+     Logical OR (||) :- (true)||(false)||(false) - true
+                        if atleast one condition is true then the or 
+                        operator will return true valu.
+     Logical NOT (!) :- It just interchange true with f
+                        false and vice versa
+                        true!=false
+                        false!=true
+                        
+Q 2. What are the types of operators based on the number of operands?
+Ans  One the basis of operands operators are catogarized into two:-
+     Unary operator: The operator which requires only single operand to
+                     perform operator are called unary operator for ex-
+                     unary + , unary - ,increment(++),decrement(--)
+                     a++,--a,etc
+     Binary operator: The operator which requires at least two operands 
+                      to perform the operation is called binary operator.
+                      For eg:- +,-,*,etc
+                      a=a-3;
+                      a-b,a*r,etc.
+Q 3. What is the use of switch case in java programming?
+Ans  We use switch case in java if we want to execute different cases on 
+     the basis of equality.It is like an if else ladder with multiple 
+     conditions, where we check for equality of variable with various 
+     values. 
+     If helps us to skip multiple if else statement in a program.
+     
+Q 4. What is the priority levels of arithmetic operations in java?
+Ans  In java the priority levels of arithmetic operations in java 
+     is from to left to right .For example
+     int a=5;
+     int c=10;
+     int b=6;
+     int d=90;
+     int ans=a+b+c+d;
+     it will execute from left to right i.e. first a+b will happen then 
+     a+b+c then a+b+c+d will happen while execution .
+     
+Q 5. What are the conditional Statements and use of conditional statements in java?
+Ans  Conditional statement are the logical statement where decision is
+     made whether the provided condition is true or not. For example
+     a condition is given to computer(4<7) so the answer is true
+     for true condition we can write a block of instruction which the 
+     computer can perform , if the condition is false we can instruct 
+     the computer to perform different set of instruction.
+     So this give the power of decision to choose between two instruction
+     execution.
+     There are three types of conditional statement:-
+     if(),if()else,switch statement.
+     
+Q 6. What is the syntax of if else statement?
+Ans  The syntax of if else statement is 
+     if(condition){
+              statement 1;  //If true
+              }
+     else{
+          statement 2;    //If false
+          }
+          
+Q 7. What are the three Types of iterative statements in java?
+Ans  The three Iterative Statements in java are:-
+     for() loop
+     while() loop 
+     do while() loop
+
+Q 8. What are the difference between for loop and do-while loop?
+Ans  The main difference between for loop and do-while loop is that 
+     for loop is an entry control loop and do-while is a exit control 
+     loop,i.e condition is checked first in for loop before the execution 
+     of inner command, and in do-while loop the condition is checked 
+     after the command is executed once.
