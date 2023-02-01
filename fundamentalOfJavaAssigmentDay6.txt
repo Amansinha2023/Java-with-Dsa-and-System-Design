@@ -1,0 +1,18 @@
+Assignment of Fundamental of Java (Day 6)
+
+Q 1. What is Programming language?
+Ans  Programming language is definite set of instructions which is given
+     to a machine, or computer to perform specific task.The task performed
+     depends upon the kind of input or information provided by the user,
+     the task of giving input is performed by given it in language that a 
+     computer or machine understands.
+
+Q 2. Why do we need a programming language?
+Ans  As we know all the processing of data happen in the processor,which is 
+     made of semiconductors and consist of transistors "npn" and "pnp" this
+     two transistor only detects high voltage(1) and low voltage(0).So the
+     only things this transistor understand  is 0 and 1.To make them do 
+     work we need to instruct them in Machine level language.So in order
+     to give them instruction we need a programming language and an
+     intermediate which converts High level language(Programming language) 
+     to low level language(0,1).
