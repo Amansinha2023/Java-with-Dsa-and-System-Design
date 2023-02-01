@@ -1,0 +1,76 @@
+Assignment of Java Variables and Data types (Day 7)
+
+Q 1. What is statically typed and Dynamically typed Programming Language?
+Ans  Statically Typed :- It is a programming language in which the user
+                         has to mention the datatype of the variable
+                         before sending it for compilation or else the 
+                         compiler will throw compilation error.
+                         for ex :- int a=5;
+                         here variable a is assigned a datatype int.
+                         the language which are statically typed are:-
+                         Java, c++,c,etc.
+     
+     Dynamically Typed :-It is a type of programming language in which 
+                         the user need not to specify the datatype to the
+                         variable it has created.The datatype is being 
+                         automatically created after compilation dynami-
+                         cally. for ex s=5;
+                         here variable s is assigned no datatype but it
+                         will not throw compilation error. the language
+                         which support this are python, javascript , etc.
+
+Q 2. What is a variable in Java?
+Ans  Variable is the name of the memory location which is used to store a 
+     data. With the name of memory location we also have to specify what
+     type of data it store, in java we can allocate datatype to variable
+     by just writing the datatype before the variable name.
+     The syntax of writing variable name in java is 
+     datatype variable_name = value;
+     eg: - int num1=23;
+     
+     
+Q 3. How to Assign a Value to Variable?
+Ans  To assign a value to variable first we have to write the datatype 
+     of data which we want to store in that variable.In java we can      allocate datatype to variable by just writing the datatype before the variable name.
+     eg :- char alphabet= 'A';
+     
+Q 4. What are Primitive Data types in Java?
+Ans  Primitive data types are the predefined data types which are not 
+     defined by the user. The example of predefined datatypes are as 
+     follows:-
+     int
+     byte
+     long
+     short
+     float
+     double
+     boolean
+     char.
+     
+Q 5. What are the Identifiers in Java?
+Ans  Identifiers are the name given to 
+     Class
+     method
+     interface
+     package
+     variable 
+     given by the user.
+     
+Q 6. List the Operators in Java?
+Ans  Operators are special set of symbol which performs specific set of 
+     tasks which include arithmatics , logical, relational etc .
+     example:- +,-,*,/,==,% etc.
+     
+Q 7. Explain about increment and Decrement operators and give an example?
+Ans  Increment and Decrement are unary operators which requires only one
+     operand to perform the increment and decrement operation with 
+     the operand. 
+     Increment Operator is (++) : it is used as (++a) which is 
+                                  pre increment and (a++) is a example of
+                                  post increment.
+                                  
+     Decrement Operator is (--) : it is used as (--a) which is pre 
+                                  decrement and (a--) which is post 
+                                  decrement example.
+     
+     
