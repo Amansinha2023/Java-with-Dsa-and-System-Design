@@ -1,3 +1,7 @@
+
+//Program to print the given pattern
+
+
 public class Sol3ofAssigDay9 {
  public static void main(String args[]){
  int n=10;
