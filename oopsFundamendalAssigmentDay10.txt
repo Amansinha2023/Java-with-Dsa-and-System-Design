@@ -1,0 +1,40 @@
+Assignment of OOPS Fundamental (Day 10)
+
+Q 1. How to create an object in java?
+Ans  To create and object in java we use a primitive keyword that is 
+     "new" keyword. This primitive keyword is used to create object
+     in java programming language.
+
+Q 2. What is the use of a new Keyword in Java?
+Ans  The main use of new keyword is to create new object in java, when
+     we use new and when it is detected by JVM it allocates a memory 
+     in heap memory for the new created object execution, if happens
+     in the program.
+
+Q 3. What are the different types of variable in Java?
+Ans  There are three different types of variable in java and they are
+     as follows:-
+     a.Static variable
+     b.Instance variable (global variable in c++)
+     c.Local variable .
+
+Q 4. What is the difference between instance variable and local variable?
+Ans  The main difference between instance and local variable is that
+     both the variable is created inside the class but the factor which
+     differentiate them is that
+     Local variable is crated inside the main method or some other method
+     and it's scope lies with method to which it is associated and 
+     is locally available to that method only in which it is decleared.
+     where as, instance variable is created outside the main method and
+     is created at the time of object creation.
+
+Q 5. In which area memory is allocated for instance and local variable?
+Ans  Instance variable is allocated in Heap memory,after creation         object in stack memory where as
+     local variable is allocated in stack memory,during the function call.
+
+Q 6. What is method overloading?
+Ans  Method overloading is the process in which we give same name to 
+     different methods(function),but the difference is created by
+     the signature(parameters) which are defined inside the function.
+     parameters are differentiated on the no of parameters,datatype
+     of the parameters.
