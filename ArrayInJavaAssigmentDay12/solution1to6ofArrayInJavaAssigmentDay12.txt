@@ -1,0 +1,43 @@
+Assignment Solution of Array in Java(question 1 to 6 Assignment(Day 12)
+
+Q 1. What do you mean by an Array?
+Ans  Array is the collection of same type of data(int,char,float,string)
+     in the contigous memory location of the same variable.We also
+     say that a subscript is called array.
+
+Q 2. How to create an Array?
+Ans  There are two ways in which we can create array
+     a.By array declaration directly by the user by just specifying its
+       datatype and its size inside the subscript
+       example :- int a[4]={1,2,4,5};
+     b.By using "new" operator because array in java is an object.
+       char a[] = new char[4]
+       a[0]='a';
+       a[1]='m';
+       a[2]='a';
+       a[3]='n';
+       
+Q 3. Can we change the size of an array at run time?
+Ans  No we cannot change the size of an array at run time because its
+     once what the size has been allocated to array is fixed, and cannot
+     be change.
+
+Q 4. Can we declare an array without assigning the size of an array?
+Ans  By using "new" operator we can declare an array without assigning    the size of an array because array in java is an object.
+       char a[] = new char[4]
+       a[0]='A';
+       a[1]='M';
+       a[2]='A';
+       a[3]='N';
+
+Q 5. What is the default value of Array?
+Ans  The default value of Array is null in java.It also depends on the 
+     datatype which is used for example if we use int datatype of the
+     array the default value of the element would be zero,this varies
+     across the different data types, it would be different in case
+     of string.
+
+Q 6. What is a 1 D array with an example?
+Ans  The array which consist of only one subscript is called 1 D Array.
+     We can also say that an array having only one row is called 1 D
+     Array. example:- a[],b[5],etc.
