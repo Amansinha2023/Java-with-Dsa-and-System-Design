@@ -1,0 +1,48 @@
+Array in Java Assignment (Day 13)
+
+Q 1. What is the default value of Array for different data types?
+Ans  The default value of Array for different data types are as follows:-
+     int - 0
+     String - null
+     Object - null
+     double - 0.0
+     boolean - false
+
+Q 2. Can you pass the negative number in Array size?
+Ans  No we cannot pass negative number as an Array size because the index
+     no of an array start with zero and it will go always forward not
+     backward.
+
+Q 3. Where does Array stored in J V M memory?
+Ans  In J V M array is stored in heap memory.
+
+Q 4. What is the disadvantage of Array?
+Ans  The disadvantage of Using as Array is:-
+     It's static in nature i.e. ones the size of array is declared we 
+     cannot increase or decrease it according to our need.
+     Second disadvantage is that we can store only data of similar data
+     type only ,i.e an array of particular data type cannot store the 
+     value of other data type .For example int array cannot store
+     string value,etc
+
+Q 5. What is an Anonymous Array in java? Give an example?
+Ans  An array which is assigned no name in the program is called 
+     anonymous array.Example: - new int[]{2,3,5,2,5};
+                                new String[]{"Aman","Sinha"};
+                                
+
+Q 6. What are the different ways to traverse an Array in java?
+Ans  The different ways to traverse an Array is
+     First by the index of the array by using for loop where i is initialized to 0 and will run till array length -1;
+     for(int i=0;i<array.length;i++){
+     }
+     Second by enhance for loop i.e for each loop where it traverse to 
+     each and every element , by only traversing to each and every element without the index.
+     for(int n:array){
+     }
+
+Q 7. What is the difference between length and length() method Give an Example?
+Ans  The main difference between length and length() method is that 
+     length is the property of array which provides us the length of the
+     array,where as length() is the function of string which provide us
+     the length of the string because string is treated as class in java.
