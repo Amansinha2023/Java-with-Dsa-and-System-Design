@@ -1,0 +1,33 @@
+Assignment Solution of String in Java Part 2 (Day 15)  Q 2 to Q 4
+
+Q 2. How to you concatenate two string in java?Give an example?
+And  There are two ways to concatenate string in java
+     a.By '+' Operator:- 
+           for example:- String s="new";
+                         s="new"+"String";
+                         System.out.print(s);  ans -newString
+     b.By concat() method
+       for example:-    String s="new";
+                        s=s.concat"String";
+                        System.out.print(s);   ans -newString
+                        
+Q 3. How do you find the length of a String in java explain with example?
+Ans  To find the length of a string in java we simple use and in build
+     method String.length(), to do so.
+     for example:- String a="AmanSinha";
+                   System.out.print(a.length());   ans-9
+                   
+Q 4. How do you compare two string in java give an example?
+Ans  We compare two string in java by two methods 
+     a. by '==" operator(it compare the reference of the object)
+     b. by equals() (it compare the content of the object)
+     for example:- String s1="Aman";
+                   String s2=new String("Aman");
+                   System.out.println(s1==s2);     ans-false(since location was compared which is different)
+                   System.out.println(s1.equals(s2));  ans -true (since actual value is compared )
+                   
+                 
+                   
+                   
+                   
+                         
