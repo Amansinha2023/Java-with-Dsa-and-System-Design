@@ -1,4 +1,4 @@
-Assignment Solution of Array in Java(question 1 to 6 Assignment(Day 12)
+Assignment Solution of Array in Java(question 1 to 7 Assignment(Day 12)
 
 Q 1. What do you mean by an Array?
 Ans  Array is the collection of same type of data(int,char,float,string)
