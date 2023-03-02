@@ -1,0 +1,234 @@
+Solution of Loops And Pattern Program Assignment Day9
+
+I have compile all the answer in the single file so that it is easy to check else all the program code is been writen in the other folder
+link which is given below 
+https://github.com/Amansinha2023/Java-with-Dsa-and-System-Design/tree/master/LoopsAndPatternProgramAssigmentDay9
+
+Q 1.
+Ans  //Program to print Alphabets A,B,C,D,E,F,G using Pattern praming logic
+
+class Sol1OfAssigDay9{
+ public static void main(String args[]){
+  for(int i='A';((i>='A')&&(i<='G'));i++){
+   System.out.println((char)i);
+  }
+ }
+}
+
+Q 2.
+Ans // Program to Print Triangle using Star Pattern Programming logic
+import java.util.*;
+class Sol2ofAssigDay9{
+
+ public static void main(String args[]){
+
+ System.out.println("Enter The Value of N");
+ Scanner scan=new Scanner(System.in);
+ int n=scan.nextInt();
+ System.out.println("Entered Value of n:-" + n);
+
+ for(int i=1;i<=n;i++){
+  for(int s=1;s<=n-i;s++){
+   System.out.print(" ");    //Print spaces
+   
+   }
+  for(int j=1;j<=i;j++){
+   System.out.print("*");    //Print the half trangle 
+  }
+
+  for(int k=2;k<=i;k++){          
+    
+   System.out.print("*");     //Print the Other half of tralgle from i=2   
+   
+  }
+   System.out.println();
+  }
+ }
+ }
+ 
+ Q 3. 
+ Ans //Program to print the given pattern
+
+
+public class Sol3ofAssigDay9 {
+ public static void main(String args[]){
+ int n=10;
+ for(int i=1;i<=n;i++){
+  for(int j=1;j<=n;j++){
+   if((i==1)||(j==1)||(i+j<=(n/2))||(j-i>=(n/2))||(j==n)||(i==n)){
+    System.out.print("*");
+   }
+   else{
+    System.out.print(" ");
+   }
+  }
+  System.out.println();
+ }
+
+ }
+ 
+}
+
+Q 4.
+Ans //Program to print "PW SKILLS"
+
+public class Sol4ofAssigDay9 {
+ 
+ 
+  public static void main(String args[]){
+   int n=10;
+  
+   for(int i=1;i<=n;i++){                           // THis loop Prints P
+    for(int j=1;j<=n;j++){
+     if((i==1)||(j==1)||(i==(n/2))||((j==n)&&(i<=(n/2)))){
+      System.out.print("*");
+     }
+     else{
+      System.out.print(" ");
+     }
+     
+    }
+ 
+    System.out.print(" ");                     // Provides single space between P and W
+ 
+    for(int j=1;j<=n;j++){                       // This is loop to print W
+     if((j==1)||(j==n)||((i+j==n)&&i>=(n/2))||((i-j==0)&&i>=(n/2))){
+      System.out.print("*");
+     }
+     else{
+      System.out.print(" ");
+     }
+    }
+ 
+    System.out.print("          ");                    // Provides Large space between W and S
+ 
+    for(int j=1;j<=n;j++){                           // This is to print S
+     if(((i==1)||(j==1)&&i<=(n/2))||(i==(n/2))||((j==n)&&i>=(n/2))||(i==n)){
+      System.out.print("*");
+     }
+     else{
+      System.out.print(" ");
+     }
+    }
+ 
+    System.out.print(" ");                     // Provide space between S and K
+ 
+ 
+    for(int j=1;j<=n;j++){                        // This loop prints K
+     if((j==1)||(i+j==6)||(i-j==4)){
+      System.out.print("*");
+     }
+     else{
+      System.out.print(" ");
+     }
+    }
+    
+    System.out.print(" ");                   // Provides space between K and I
+ 
+     for(int j=1;j<=n;j++){                  // THis loop prints I
+     if((i==1)||(j==(n/2))||(i==n)){
+      System.out.print("*");
+     }
+     else{
+      System.out.print(" ");
+     }
+    }
+ 
+    System.out.print(" ");             // Provides space between I and L
+ 
+    for(int j=1;j<=n;j++){             // This loop print L
+     if((j==1)||(i==n)){
+      System.out.print("*");
+     }
+     else{
+      System.out.print(" ");
+     }
+    }
+ 
+    System.out.print(" ");             // Provides space between L and L
+ 
+    for(int j=1;j<=n;j++){             // This loop print L
+     if((j==1)||(i==n)){
+      System.out.print("*");
+     }
+     else{
+      System.out.print(" ");
+     }
+    }
+ 
+    System.out.print(" ");                    // Provides Large space between L and S
+ 
+    for(int j=1;j<=n;j++){                           // This is to print S
+     if(((i==1)||(j==1)&&i<=(n/2))||(i==(n/2))||((j==n)&&i>=(n/2))||(i==n)){
+      System.out.print("*");
+     }
+     else{
+      System.out.print(" ");
+     }
+    }
+ 
+    System.out.println();
+   }
+   
+  }
+  
+ 
+}
+
+Q 5.
+Ans //Program to print my Name i.e "AMAN"
+
+public class Sol5ofAssigDay9 {
+ public static void main(String args[]){
+  int n=10;
+  for(int i=1;i<=n;i++){
+
+
+   for(int j=1;j<=n;j++){                    //This loop Print A
+    if((i==1)||(j==1)||(i==(n/2))||(j==n)){
+     System.out.print("*");
+    }
+    else{
+     System.out.print(" ");
+    }
+   }
+
+   System.out.print(" ");                 //Provides space between A & M
+
+   for(int j=1;j<=n;j++){                   // This loop Print M
+    if((j==1)||((i==j)&&i<=(n/2))||((i+j==n)&&i<=(n/2))||(j==n)){
+     System.out.print("*");
+    }
+    else{
+     System.out.print(" ");
+    }
+   }
+
+   System.out.print(" ");               // Provide space between M & A
+
+   for(int j=1;j<=n;j++){                 // This loop print A
+    if((i==1)||(j==1)||(i==(n/2))||(j==n)){
+     System.out.print("*");
+    }
+    else{
+     System.out.print(" ");
+    }
+   }
+
+   System.out.print(" ");                 //Provides space between A & N
+
+   for(int j=1;j<=n;j++){                // This loop print N
+    if((j==1)||(i==j)||(j==n)){
+     System.out.print("*");
+    }
+    else{
+     System.out.print(" ");
+    }
+   }
+
+
+   System.out.println();
+  }
+ }
+ 
+}
