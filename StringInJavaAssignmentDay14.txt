@@ -28,8 +28,18 @@ And  In three ways we can create string object in java
                  String variable_name=new String(ch);
        example:- char ch[]={'A','m','a','n'};
                  String name=new String(ch);
+                 
+Q 4. What is a String Constant Pool?
+Ans  String Constant Pool(SCP) is a memory area which is present inside 
+     the Heap memory area . If a String object is created without using
+     the "new" keyword" the objected created is stored inside SCP(String
+     constant  Pool) which is present inside the Heap area.
+     One Specilization of SCP is that duplicates are not allowed inside
+     it,i.e. if two string have the same value , then both the string
+     point the same memory location of that value.
      
-Q 4. What do you mean by mutable and immutable object?
+     
+Q 5. What do you mean by mutable and immutable object?
 And  Mutable Object:-
      The object whose value can be changed once it is created inside the
      the heap memory area is called mutable object.
@@ -39,7 +49,7 @@ And  Mutable Object:-
      the value of object then a new object will created of that
      changed value but would not be reffered by the object.
      
-Q 5. Where is exactly the String Constant Pool(SCP) located in the
+Q 6. Where is exactly the String Constant Pool(SCP) located in the
      memory?
 And  The string constant pool is located inside the heap area in the 
      in the memory.
