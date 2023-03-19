@@ -3,6 +3,7 @@ Assignment of String in Java  (Day 14)
 Q 1. What is a String in Java?
 Ans  A String is collection of character or series of characters enclosed
      in double quotes.
+     For example:-"Amansinha","13532","Aman2950",etc.
      
 Q 2. Types of String in Java?
 Ans  In Java there are basically two types of things :-
@@ -15,20 +16,43 @@ Ans  In Java there are basically two types of things :-
 Q 3. In how many ways can you create string object in java?
 And  In three ways we can create string object in java
      a.By using String class(immutable string)
-     b.By using String Buffer(mutable string)
-     c.By using String Builder(mutable string)
+       Syntax :- String variable_name="data";
+       example:- String name="Aman Sinha";
+       
+     b.By using "new" keyword
+       Syntax :- String variable_name=new String("data");
+       example:- String name=new String("Aman Sinha');
+       
+     c.By using Character Array
+       Syntax :- char ch[]={'d','a','t','a'};
+                 String variable_name=new String(ch);
+       example:- char ch[]={'A','m','a','n'};
+                 String name=new String(ch);
      
 Q 4. What do you mean by mutable and immutable object?
-And  The object whose value can be changed we it is created once inside
+And  Mutable Object:-
+     The object whose value can be changed once it is created inside the
      the heap memory area is called mutable object.
+     Immutable Object:-
      The object whose value cannot be created once  it is created inside
      the heap memory area is called immutable object.If try to change
      the value of object then a new object will created of that
      changed value but would not be reffered by the object.
      
-Q 5. Where is exactly the String Constant Pool(SCP) located in the memory?
+Q 5. Where is exactly the String Constant Pool(SCP) located in the
+     memory?
 And  The string constant pool is located inside the heap area in the 
      in the memory.
+     If the String object is not created by using the "new" keyword then
+     the object is created inside the string constant  pool(SCP) inside
+     the heap memory area.
+     example:- String s1="Pwskills";
+     here "Pwsills" is stored in SCP inside heap memory area.
+     
+     If "new" keyword  is not used to create the string object then the 
+     object is created outside the SCP in the Heap Memory area.
+     Example:- String s2=new String("Pw");
+     here "Pw" is stored in heap memory area not in SCP.
      
      
       
